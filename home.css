@@ -1,0 +1,116 @@
+#welcomebutton{
+    color:rgb(211, 17, 82);
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+}
+#logo{
+    width: 400px;
+    height: 500px;
+}
+#word{
+    font-size: 30px;
+}
+.homepage{
+    border:solid 5px; 
+    border-color: rgb(206, 45, 72);
+    background-color: #fdd7cc;
+    width: 50%;
+    padding: 24px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.navbar{
+        display: flex;
+        gap: 10%;
+    }
+
+#welcome{
+    font-size: 55px;
+    color: rgb(206, 45, 72);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (min-width:375px) and (max-width:667px){
+    #welcomebutton{
+        color:rgb(211, 17, 82);
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px 25px;
+        text-align: center;
+        display: inline-block;
+    }
+    #logo{
+        width: 200px;
+        height: 200px;
+    }
+    #word{
+        font-size: 30px;
+    }
+    .homepage{
+        border:solid 5px; 
+        border-color: rgb(206, 45, 72);
+        background-color: #fdd7cc;
+        width: 50%;
+        padding: 24px;
+        margin: 0 auto;
+        text-align: center;
+    
+    }
+    .navbar{
+            display: block;
+            flex-wrap: wrap;
+            gap: 10%;
+        }
+    
+    #welcome{
+        font-size: 55px;
+        color: rgb(206, 45, 72);
+        text-align: center;
+    }
+     
+}
+@media screen and (min-width:667px) and (max-width:800px){
+    #welcomebutton{
+        color:rgb(211, 17, 82);
+        background-color: white;
+        border-radius: 155px;
+        padding: 10px 25px;
+        text-align: center;
+        display: inline-block;
+    }
+    #logo{
+        width: 10px;
+        height: 10x;
+    }
+    #word{
+        font-size: 30px;
+    }
+    .homepage{
+        border:solid 5px; 
+        border-color: rgb(206, 45, 72);
+        background-color: #fdd7cc;
+        width: 50%;
+        padding: 24px;
+        margin: 0 auto;
+        text-align: center;
+    
+    }
+    .navbar{
+            display: block;
+            flex-wrap: wrap;
+            gap: 10%;
+        }
+    
+    #welcome{
+        font-size: 55px;
+        color: rgb(206, 45, 72);
+        text-align: center;
+    }  
+}

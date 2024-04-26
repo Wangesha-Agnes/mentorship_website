@@ -1,0 +1,121 @@
+#view{
+    color: white;
+    background-color: rgb(211, 17, 82);
+    border-radius: 30px;
+    padding: 15px 23px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -9%;
+}
+.todolist{
+    border:solid 5px; 
+    border-color: rgb(206, 45, 72);
+    background-color: #fdd7cc;
+    width: 50%;
+    padding: 100px;
+  
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.navbar{
+    display: flex;
+    gap: 10%;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+} 
+@media screen and (min-width:600px) and (max-width:850px){
+    #view{
+        color: white;
+        background-color: rgb(211, 17, 82);
+        border-radius: 30px;
+        padding: 15px 23px;
+        text-align: center;
+        display: inline-block;
+        margin-left: -9%;
+    }
+    .todolist{
+        border:solid 5px; 
+        border-color: rgb(206, 45, 72);
+        background-color: #fdd7cc;
+        width: 50%;
+        padding: 100px;
+      
+    }
+    input{
+        width: 300px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 17px;
+    }
+    .navbar{
+        display: block;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+}
+@media screen and (min-width:200px) and (max-width:400px){
+    #view{
+        color: white;
+        background-color: rgb(211, 17, 82);
+        border-radius: 30px;
+        padding: 15px 23px;
+        text-align: center;
+        display: inline-block;
+        margin-left: -9%;
+    }
+    .todolist{
+        border:solid 5px; 
+        border-color: rgb(206, 45, 72);
+        background-color: #fdd7cc;
+        width: 50%;
+        padding: 100px;
+      
+    }
+    input{
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 17px;
+    }
+    .navbar{
+        display: block;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+}
+@media screen and (min-width:850px) and (max-width:1000px){
+    #view{
+        color: white;
+        background-color: rgb(211, 17, 82);
+        border-radius: 30px;
+        padding: 15px 23px;
+        text-align: center;
+        display: inline-block;
+        margin-left: -9%;
+    }
+    .todolist{
+        border:solid 5px; 
+        border-color: rgb(206, 45, 72);
+        background-color: #fdd7cc;
+        width: 50%;
+        padding: 100px;
+      
+    }
+    input{
+        width: 100px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 17px;
+    }
+    .navbar{
+        display: block;
+        flex-wrap: wrap;
+    }
+}
