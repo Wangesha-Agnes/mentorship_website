@@ -12,7 +12,8 @@
     border:solid 5px; 
     border-color: rgb(206, 45, 72);
     background-color: #fdd7cc;
-    width: 50%;
+    width: 450px;
+    height: 450px;
     padding: 64px;
     margin: 0 auto;
 
@@ -56,4 +57,26 @@
         margin: 0 auto;
     
     }    
+}
+@media screen and (min-width:0px) and (max-width:299px){
+    #achievements{
+        text-align: center;
+        font-size: 30px;
+        color: brown;
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    .achieve{
+        border:solid 5px; 
+        border-color: rgb(206, 45, 72);
+        background-color: #fdd7cc;
+        width: 450px;
+        height: 450px;
+        padding: 64px;
+        margin: 0 auto;
+    
+    } 
 }
