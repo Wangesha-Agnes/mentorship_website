@@ -1,26 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="goalsetting.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="goalsetting.css">
 </head>
 <body>
-    <div class="goals">
-    <ul class="navbar">
-        <a href="profile.html">Mentor's profile</a>
-        <a href="goalsetting.html">Goals</a>
-        <a href="index.html">Home</a>
-        <a href="todo list.html">To do list</a>
-    </ul>
-    <div class="container">
-        <h1>Goal setting</h1>
-        <input type="text" id="taskInput" placeholder="Add new goal...">
-        <button onclick="addTask()">Add goal</button>
-        <ul id="achieved"></ul>
-      </div>
+  <div class="container">
+  <ul class="navbar">
+    <a href="index.html">Home</a>
+    <a href="profile.html">Mentor profile</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="landingpage.html">landingpage</a>
+    <a href="todo.html">To do list</a>
+</ul>
+   
+    <h1>Goal setting</h1>
+    <input type="text" id="taskInput" placeholder="Add new goal...">
+    <button onclick="addTask()">Add goals</button>
+    <ul id="taskList"></ul>
 
-      </div>
+  
+  </div>
+
+  <script src="goals.js"></script>
 </body>
 </html>

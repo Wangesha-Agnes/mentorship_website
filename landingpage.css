@@ -5,7 +5,10 @@
     background-color: #fdd7cc;
 }
 #homeimage{
-    width: 80%;
+    width: 400px;
+    height: 400px;
+    padding-left: 150px; 
+     
 }
 @media screen and (min-width:412px) and (max-width:700px){
     #word{
@@ -15,7 +18,8 @@
         background-color: #fdd7cc;
     }
     #homeimage{
-        width: 80%;
+        width: 400px;
+        height: 200px;
     } 
 }
 @media screen and (min-width:200px) and (max-width:400px){

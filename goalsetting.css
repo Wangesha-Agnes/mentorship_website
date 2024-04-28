@@ -12,6 +12,24 @@
     margin: 0 auto;
 
 }
+.container{
+    border: solid 5px;
+    border-color: rgb(206, 45, 72);
+    background-color: #fdd7cc;
+    height: 450px;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+#taskInput{
+    color: white;
+    border-radius: 30px;
+    padding: 14px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -5%;
+}
 @media screen and (min-width:300px) and (max-width:500px){
     .navbar{
         display: flex;

@@ -18,6 +18,32 @@
     margin: 0 auto;
 
 }
+#view{
+    color: white;
+    background-color: rgb(211, 17, 82);
+    border-radius: 30px;
+    padding: 15px 23px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -9%;
+}
+#text{
+    color: white;
+    border-radius: 30px;
+    padding: 15px 23px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -9%;
+    
+}
+#taskInput{
+    color: white;
+    border-radius: 30px;
+    padding: 15px 23px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -9%;
+}
 @media screen and (min-width:375px) and (max-width:667px){
     #achievements{
         text-align: center;
