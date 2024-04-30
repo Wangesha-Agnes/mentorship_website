@@ -45,6 +45,16 @@ a{
    border-radius: 35px; 
 
 }
+#text{
+    color: white;
+    border-radius: 10px;
+    padding: 12px 12px;
+    /* text-align: center; */
+    display: inline-block;
+    /* margin-left: -9%; */
+    margin: 60px;
+    
+}
 @media screen and (min-width:600px) and (max-width:850px){
     #view{
         color: white;
