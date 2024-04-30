@@ -47,12 +47,12 @@ a{
 }
 #text{
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 12px 12px;
-    /* text-align: center; */
+    text-align: center;
     display: inline-block;
-    /* margin-left: -9%; */
-    margin: 60px;
+    margin-left: -9%;
+    margin: 30px;
     
 }
 @media screen and (min-width:600px) and (max-width:850px){
