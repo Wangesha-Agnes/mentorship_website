@@ -20,6 +20,7 @@
     #homeimage{
         width: 400px;
         height: 200px;
+        padding-left: 150px;
     } 
 }
 @media screen and (min-width:200px) and (max-width:400px){
