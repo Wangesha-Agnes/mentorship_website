@@ -70,7 +70,7 @@
         color: brown;
     }
     .navbar{
-        display: flex;
+        display: block;
         flex-wrap: wrap;
         gap: 10%;
     }
