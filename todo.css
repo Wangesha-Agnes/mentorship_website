@@ -25,6 +25,7 @@ input{
     display: flex;
     flex-wrap: wrap;
     gap: 10%;
+
     
 }
 a{
@@ -54,6 +55,18 @@ a{
     margin-left: -9%;
     margin: 30px;
     
+}
+#input{
+    width: 20px;
+    margin-top: 2px;
+}
+.Summary_nyj{
+display: flex;
+margin-left: 120px;
+}
+
+#summary{
+    margin: 14px;
 }
 @media screen and (min-width:600px) and (max-width:850px){
     #view{
